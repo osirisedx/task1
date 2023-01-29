@@ -47,6 +47,10 @@ header h1 {
 
 /* ----------- nav start ----------------------------  */
 
+.menu {
+    display: none;
+}
+
 nav {
     position: relative;
     top: -345px;
