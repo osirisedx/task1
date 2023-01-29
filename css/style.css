@@ -71,3 +71,77 @@ nav button {
 
 
 /* ----------- nav end ----------------------------  */
+
+
+/* ----------- main start ----------------------------  */
+
+.imageContact {
+    position: absolute;
+    margin-left: 10%;
+    top: 655px;
+    width: 80%;
+}
+
+.imageIndex {
+    position: absolute;
+    margin-left: 174px;
+    left: -6%;
+    top: 655px;
+    width: 10%;
+}
+
+.imageAbout {
+    position: absolute;
+    margin-left: 174px;
+    left: -6%;
+    top: 655px;
+    width: 10%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+article {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 290px;
+}
+
+article p {
+    margin-left: 22px;
+    padding-bottom: 20px;
+}
+
+section {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 290px;
+    margin-right: 20%;
+}
+
+section p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    font-family: cursive, sans;
+    font-size: large;
+    margin-left: 290px;
+}
+
+.contact span a {
+    display: inline;
+}
+
+.contact p {
+    padding-top: 14px;
+}
+
+.email:hover {
+    color: #000;
+}
+
+
+/* ----------- main end ----------------------------  */
