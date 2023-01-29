@@ -9,7 +9,7 @@
 
 header {
     height: 410px;
-    margin: 90px 220px 0px 150px;
+    margin: 90px 13% 0px 8%;
 }
 
 .banner1 {
@@ -17,15 +17,17 @@ header {
 }
 
 .banner2 {
-    height: 75%;
+    height: 86%;
     width: 100%;
 }
 
 #logo {
     position: absolute;
-    right: 15%;
-    top: 50px;
+    right: 22%;
+    top: 422px;
     height: 100px;
+    background-color: white;
+    border: solid black;
 }
 
 header h1 {
@@ -35,11 +37,16 @@ header h1 {
 }
 
 .texto-banner {
+    color: white;
     font-family: cursive, sans;
     font-size: x-large;
     text-align: center;
     border: 2px solid #000;
     padding: 8px;
+}
+
+h3 {
+    background-color: black;
 }
 
 
