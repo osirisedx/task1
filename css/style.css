@@ -38,3 +38,36 @@ header h1 {
 
 
 /* ----------- header end ----------------------------  */
+
+
+/* ----------- nav start ----------------------------  */
+
+nav {
+    position: relative;
+    top: -385px;
+    margin-right: 100px;
+    text-align: end;
+}
+
+nav button {
+    font-family: cursive, sans;
+    font-size: large;
+    color: white;
+    background-color: #4472c4;
+    text-decoration: none;
+    padding: 4px 16px;
+    margin: 0 5px;
+    border: 2px solid black;
+    box-shadow: 4px 3px 0px 0px #00000067;
+}
+
+.button:hover {
+    background-color: #70ad47;
+}
+
+.button:focus {
+    background-color: #70ad47;
+}
+
+
+/* ----------- nav end ----------------------------  */
