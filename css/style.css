@@ -9,12 +9,16 @@
 
 header {
     height: 410px;
-    margin: 50px 100px 0px;
+    margin: 90px 13% 0px 10%;
 }
 
-.banner {
+.banner1 {
     height: 75%;
     width: 100%;
+}
+
+.banner2 {
+    display: none;
 }
 
 #logo {
@@ -25,6 +29,7 @@ header {
 }
 
 header h1 {
+    font-size: 400%;
     font-family: cursive, sans;
 }
 
@@ -44,8 +49,8 @@ header h1 {
 
 nav {
     position: relative;
-    top: -385px;
-    margin-right: 100px;
+    top: -345px;
+    margin-right: 14%;
     text-align: end;
 }
 
@@ -77,46 +82,47 @@ nav button {
 
 .imageContact {
     position: absolute;
+    top: 76%;
+    width: 76%;
     margin-left: 10%;
-    top: 655px;
-    width: 80%;
+    margin-right: 10%;
 }
 
 .imageIndex {
     position: absolute;
     margin-left: 174px;
-    left: -6%;
-    top: 655px;
+    left: -1%;
+    top: 78%;
     width: 10%;
 }
 
 .imageAbout {
     position: absolute;
     margin-left: 174px;
-    left: -6%;
-    top: 655px;
+    left: -1%;
+    top: 78%;
     width: 10%;
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 3%;
 }
 
 article {
     font-family: cursive, sans;
     font-size: 21px;
-    margin-left: 290px;
+    margin-left: 24%;
 }
 
 article p {
-    margin-left: 22px;
+    margin-left: 3%;
     padding-bottom: 20px;
 }
 
 section {
     font-family: cursive, sans;
     font-size: 21px;
-    margin-left: 290px;
+    margin-left: 22%;
     margin-right: 20%;
 }
 
@@ -128,7 +134,7 @@ section p {
 .contact {
     font-family: cursive, sans;
     font-size: large;
-    margin-left: 290px;
+    margin-left: 23%;
 }
 
 .contact span a {

@@ -9,22 +9,28 @@
 
 header {
     height: 410px;
-    margin: 50px 100px 0px;
+    margin: 90px 220px 0px 150px;
 }
 
-.banner {
+.banner1 {
+    display: none;
+}
+
+.banner2 {
     height: 75%;
     width: 100%;
 }
 
 #logo {
-    position: relative;
-    left: 15px;
+    position: absolute;
+    right: 15%;
     top: 50px;
     height: 100px;
 }
 
 header h1 {
+    position: absolute;
+    font-size: 450%;
     font-family: cursive, sans;
 }
 
