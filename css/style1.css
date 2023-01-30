@@ -31,6 +31,7 @@ header {
 }
 
 header h1 {
+    color: rgba(255, 255, 255, 0.815);
     position: absolute;
     font-size: 450%;
     font-family: cursive, sans;
