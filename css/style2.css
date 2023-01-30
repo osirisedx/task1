@@ -83,12 +83,10 @@ nav a.buton {
     box-shadow: 4px 3px 0px 0px #00000067;
     border-radius: 15px;
     top: 10px;
-    transform: scale(1.5);
 }
 
 .buton:hover {
     background-color: #70ad47;
-    transform: scaleX(2);
 }
 
 .buton:focus {
@@ -98,6 +96,80 @@ nav a.buton {
 
 /* ----------- nav end ----------------------------  */
 
-main {
-    display: none;
+
+/* ----------- main start ----------------------------  */
+
+.imageIndex {
+    position: absolute;
+    top: 742px;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 12%;
 }
+
+.imageAbout {
+    position: absolute;
+    top: 930px;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 12%;
+}
+
+.imageContact {
+    position: absolute;
+    top: 592px;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 12%;
+}
+
+main {
+    margin-top: 40px;
+}
+
+article {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 11%;
+}
+
+article p {
+    margin-left: 3%;
+    padding-bottom: 20px;
+}
+
+section {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 9%;
+    margin-right: 20%;
+}
+
+section p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    font-family: cursive, sans;
+    font-size: large;
+    margin-left: 11%;
+}
+
+.contact span a {
+    display: inline;
+}
+
+.contact p {
+    padding-top: 14px;
+}
+
+.email:hover {
+    color: #000;
+}
+
+
+/* ----------- main end ----------------------------  */
