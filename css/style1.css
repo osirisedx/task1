@@ -45,7 +45,7 @@ header h1 {
     padding: 8px;
 }
 
-h3 {
+header h3 {
     background-color: black;
 }
 
@@ -81,3 +81,81 @@ nav a {
 
 
 /* ----------- nav end ----------------------------  */
+
+
+/* ----------- main start ----------------------------  */
+
+.imageIndex {
+    position: absolute;
+    top: 759px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+.imageAbout {
+    position: absolute;
+    top: 1006px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+.imageContact {
+    position: absolute;
+    top: 610px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+main {
+    margin-top: -305px;
+}
+
+article {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 24%;
+}
+
+article p {
+    margin-left: 3%;
+    padding-bottom: 20px;
+}
+
+section {
+    font-family: cursive, sans;
+    font-size: 21px;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+section p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    font-family: cursive, sans;
+    font-size: large;
+    margin-left: 23%;
+}
+
+.contact span a {
+    display: inline;
+}
+
+.contact p {
+    padding-top: 14px;
+}
+
+.email:hover {
+    color: #000;
+}
+
+
+/* ----------- main end ----------------------------  */
