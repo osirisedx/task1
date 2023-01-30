@@ -58,7 +58,7 @@ nav {
     text-align: end;
 }
 
-nav button {
+nav a.buton {
     font-family: cursive, sans;
     font-size: large;
     color: white;
@@ -70,11 +70,11 @@ nav button {
     box-shadow: 4px 3px 0px 0px #00000067;
 }
 
-.button:hover {
+.buton:hover {
     background-color: #70ad47;
 }
 
-.button:focus {
+.buton:focus {
     background-color: #70ad47;
 }
 
@@ -84,32 +84,35 @@ nav button {
 
 /* ----------- main start ----------------------------  */
 
-.imageContact {
-    position: absolute;
-    top: 76%;
-    width: 76%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .imageIndex {
     position: absolute;
-    margin-left: 174px;
-    left: -1%;
-    top: 78%;
-    width: 10%;
+    top: 805px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
 }
 
 .imageAbout {
     position: absolute;
-    margin-left: 174px;
-    left: -1%;
-    top: 78%;
-    width: 10%;
+    top: 1020px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+.imageContact {
+    position: absolute;
+    top: 653px;
+    margin-top: 50px;
+    width: 63%;
+    margin-left: 22%;
+    margin-right: 20%;
 }
 
 main {
-    margin-top: 3%;
+    margin-top: 68px;
 }
 
 article {

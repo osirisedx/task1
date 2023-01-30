@@ -56,13 +56,13 @@ header h3 {
 
 /* ----------- nav start ----------------------------  */
 
-.button {
+.buton {
     display: none;
 }
 
 nav {
     position: relative;
-    top: -27px;
+    top: 50px;
 }
 
 nav a {
@@ -97,7 +97,7 @@ nav a {
 
 .imageAbout {
     position: absolute;
-    top: 1006px;
+    top: 978px;
     margin-top: 50px;
     width: 63%;
     margin-left: 22%;
@@ -114,7 +114,7 @@ nav a {
 }
 
 main {
-    margin-top: -305px;
+    margin-top: -235px;
 }
 
 article {
