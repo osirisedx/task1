@@ -81,7 +81,7 @@ nav a.buton {
     margin: 0 5px;
     box-shadow: 4px 3px 0px 0px #00000067;
     border-radius: 15px;
-    width: 5em;
+    width: auto;
     height: 2em;
 }
 
@@ -91,67 +91,54 @@ nav a.buton {
 
 .buton:focus {
     background-color: #70ad47;
-    */
 }
 
 
 /* ----------- nav end ----------------------------  */
 
-main {
-    display: none;
-}
-
 
 /* ----------- main start ----------------------------  */
 
-
-/* .imageIndex {
-    position: absolute;
-    top: 742px;
-    margin-top: 50px;
-    width: 80%;
-    margin-left: 9%;
-    margin-right: 12%;
+.mainAbout,
+.mainContact,
+.mainHome {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.imageAbout {
-    position: absolute;
-    top: 930px;
-    margin-top: 50px;
-    width: 80%;
-    margin-left: 9%;
-    margin-right: 12%;
-}
-
-.imageContact {
-    position: absolute;
-    top: 592px;
-    margin-top: 50px;
-    width: 80%;
-    margin-left: 9%;
-    margin-right: 12%;
-}
-
-main {
+.home {
     margin-top: 40px;
+    width: 104em;
 }
 
 article {
     font-family: cursive, sans;
-    font-size: 21px;
-    margin-left: 11%;
+    font-size: 1.4em;
+    margin-left: 3.1em;
 }
 
 article p {
-    margin-left: 3%;
+    margin-left: 1em;
     padding-bottom: 20px;
+}
+
+.imageIndex {
+    display: flex;
+    margin-top: 1em;
+    width: 100em;
+}
+
+.about {
+    margin-top: 40px;
+    width: 104em;
 }
 
 section {
     font-family: cursive, sans;
-    font-size: 21px;
-    margin-left: 9%;
-    margin-right: 20%;
+    font-size: 1.4em;
+    margin-left: 3.1em;
+    margin-right: 3.1em;
 }
 
 section p {
@@ -159,24 +146,99 @@ section p {
     padding-bottom: 20px;
 }
 
-.contact {
-    font-family: cursive, sans;
-    font-size: large;
-    margin-left: 11%;
+.imageAbout {
+    display: flex;
+    margin-top: 1em;
+    width: 100em;
 }
 
-.contact span a {
-    display: inline;
+.contact {
+    display: flex;
+    font-family: cursive, sans;
+    font-size: large;
+    margin-top: 40px;
+    margin-right: 66em;
+    flex-direction: column;
 }
 
 .contact p {
     padding-top: 14px;
 }
 
+.imageContact {
+    display: flex;
+    margin-top: 1em;
+    width: 100em;
+}
+
 .email:hover {
     color: #000;
 }
- */
+
+.mainRules {
+    display: flex;
+}
+
+.mainRules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.mainRules h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+.mainRules>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin-bottom: 2em;
+}
+
+dl {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    width: 36em;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.parrafo {
+    text-indent: 2em;
+    margin-bottom: 2.5em;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 1.5em;
+}
+
+span {
+    font-weight: normal;
+}
+
+.listGroups li {
+    list-style-type: lower-alpha;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.parrafo ul {
+    list-style-position: inside;
+    text-indent: 0;
+    list-style-type: circle;
+    margin-left: 3em;
+}
 
 
 /* ----------- main end ----------------------------  */
